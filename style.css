@@ -81,11 +81,6 @@ html{
 
 /* Portfolio Section */
 
-#Portfolio{
-
-}
-
-
 #Portfolio .portfolio{
     flex-direction: column;
     text-align: center;
