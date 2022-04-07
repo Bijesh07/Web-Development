@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Hero Section */
+#hero{
+    background-image: url(assets/my\ photo.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+
+.top{
+    margin-top: 14em;
+}
+
+#hero::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+#hero .hero{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
+
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: white;
+    animation: text_move 5s ease;
+}
+
+#hero h2{
+    font-weight: 500;
+    display: block;
+    width: fit-content;
+    position: relative;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: .5em;
+}
+
+#hero p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* Hero Section */
+
+/* Portfolio Section */
+
+#Portfolio{
+
+}
+
+
+#Portfolio .portfolio{
+    flex-direction: column;
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.section-title{
+   /* margin-top: -6em;*/
+    font-size: 4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+
+#Portfolio .portfolio-top p{
+    font-size: 1.2rem;
+    margin-top: 5px;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 4em;
+}
+
+#Portfolio .portfolio-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* End Portfolio Section */
+
+/* key frames */
+
+@keyframes text_move{
+
+    25%{
+        letter-spacing: 5px;
+    }
+
+    75%{
+        letter-spacing: 0px;
+    }
+}
+
+/* End key frames */
