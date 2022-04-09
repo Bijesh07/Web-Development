@@ -130,6 +130,11 @@ html{
 .box{
     border-radius: 3em;
     box-shadow: 5px 5px 10px 5px #888888;
+    transition: .5s ease box-shadow;
+}
+
+.box:hover{
+    box-shadow: 0px 0px 10px #888888 ;
 }
 
 #Portfolio .portfolio-bottom p{
@@ -141,6 +146,107 @@ html{
     margin-bottom: 4em;
 }
 /* End Portfolio Section */
+
+/* Contact Section */
+
+.contact-title{
+    margin-top: 1em;
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .1em;   
+}
+
+#Contact .contact{
+    background-color: rgba(245, 250, 250, 0.952);
+    flex-direction: column;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+#Contact .contact-items{
+    width: 400px;
+}
+
+#Contact .contact-item{
+    background-color: white;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 4rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px #888888;
+    transition: .3s ease box-shadow;
+}
+
+#Contact .contact-item:hover{
+    box-shadow: 0px 0px 4px #888888;
+}
+
+#Contact .icon{
+    width: 2em;
+    margin: 0 auto;
+    margin-right: 8rem;
+}
+
+#Contact .contact-item h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2.5px;
+}
+
+#Contact .contact-item p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.contact-form{
+    background-color: rgba(245, 250, 250, 0.952);
+    padding: 5em;
+}
+.contact-form h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+label {
+    display: block;
+    font-size: 1.8em;
+    margin-bottom: 0.2em;
+}
+
+input,
+textarea {
+    font-size: 1.5em;
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1.2em;
+    border-radius: 0.3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.message-cta{
+    background-color: rgba(41, 22, 212, 0.89);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5em;
+    padding: 0.8em 2em;
+    width: 50%;
+    cursor: pointer;
+    margin-left: 6em;
+    transition: .3s ease box-shadow;
+}
+
+.message-cta:hover{
+    box-shadow: 2px 2px 18px #888888 ;
+    font-weight: bold;
+}
+/* Contact Section */
 
 /* key frames */
 
