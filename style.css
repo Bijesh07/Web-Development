@@ -187,38 +187,6 @@ textarea {
     font-weight: bold;
 }
 
-footer{
-    bottom: px;
-    width: 100%;
-    color: white;
-    background: rgba(83, 58, 4, 0.856);
-}
-
-.main-content{
-    display: flex;
-}
-
-.main-content {
-    flex-basis: 50%;
-    padding: 5.5em;
-}
-
-.left-box h2{
-    font-size: 2.5rem;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-.left-box .content{
-    margin: .5em 2em 2em 0em;
-}
-
-.content p{
-    font-size: 1.2rem;
-}
-.social{
-    margin-top: 1.5em;
-}
 /* Contact Section */
 
 /*Site Report*/
